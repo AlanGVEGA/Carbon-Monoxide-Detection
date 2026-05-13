@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f7f9;
+    margin: 0;
+    padding: 0;
+}
+
+.contenedor {
+    width: 80%;
+    max-width: 960px;
+    margin: 40px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #1f3c88;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 25px;
+}
+
+th {
+    background: #1f3c88;
+    color: white;
+    padding: 12px;
+}
+
+td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+}
+
+.tarjetas {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin: 30px 0;
+    justify-content: center;
+}
+
+.tarjeta {
+    flex: 1 1 200px;
+    max-width: 280px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    text-align: center;
+}
+
+.tarjeta h2 {
+    margin-top: 0;
+}
+
+.tarjeta.seguro {
+    border-top: 4px solid #2e7d32;
+    background: #e8f5e9;
+}
+
+.tarjeta.precaucion {
+    border-top: 4px solid #ef6c00;
+    background: #fff3e0;
+}
+
+.tarjeta.peligro {
+    border-top: 4px solid #c62828;
+    background: #ffebee;
+}
+
+.seguro {
+    color: #2e7d32;
+    font-weight: bold;
+}
+
+.precaucion {
+    color: #ef6c00;
+    font-weight: bold;
+}
+
+.peligro {
+    color: #c62828;
+    font-weight: bold;
+}
+
+.boton {
+    display: inline-block;
+    margin-top: 24px;
+    padding: 12px 24px;
+    background: #1f3c88;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.boton:hover {
+    background: #152a5c;
+}
