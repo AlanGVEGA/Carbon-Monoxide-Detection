@@ -1,0 +1,26 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Editores / IDE
+.idea/
+*.swp
+*.swo
+*~
+.project
+.settings/
+
+# Logs y archivos temporales
+*.log
+*.tmp
+*.bak
+*.cache
+
+# Composer (por si se añade dependencias PHP)
+/vendor/
+
+# Credenciales locales (si en el futuro usas .env en lugar de conexion.php fija)
+.env
+.env.local
+.env.*.local
