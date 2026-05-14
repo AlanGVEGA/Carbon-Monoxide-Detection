@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SafeHome IoT</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <nav class="navbar">
+    <div class="nav-inner">
+      <div class="nav-logo">
+        <span class="logo-icon">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+        </span>
+        SafeHome IoT
+      </div>
+      <ul class="nav-links">
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#caracteristicas">Características</a></li>
+        <li><a href="#formulario">Formulario</a></li>
+        <li><a href="#como-ayuda">Cómo ayuda</a></li>
+        <li><a href="#tecnologia">Tecnología</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+      <a href="dashboard.php" class="btn-dashboard">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg>
+        Ver Dashboard
+      </a>
+    </div>
+  </nav>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="inicio">
+    <div class="hero-content">
+      <h1 class="hero-title">
+        IoT para un hogar<br />
+        <span class="gradient-text">más seguro</span>
+      </h1>
+      <p class="hero-subtitle">
+        Monitorea niveles de gas en tiempo real, recibe alertas y protege a tu familia, especialmente a los adultos mayores, con tecnología IoT.
+      </p>
+      <a href="#formulario" class="btn-primary">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+        Ir al Formulario →
+      </a>
+    </div>
+    <div class="hero-illustration">
+      <div class="house-graphic">
+        <div class="orbit-ring">
+          <div class="orbit-icon orbit-wifi">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.55a11 11 0 0 1 14.08 0"/><path d="M1.42 9a16 16 0 0 1 21.16 0"/><path d="M8.53 16.11a6 6 0 0 1 6.95 0"/><line x1="12" y1="20" x2="12.01" y2="20"/></svg>
+          </div>
+          <div class="orbit-icon orbit-cloud">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"/></svg>
+          </div>
+          <div class="orbit-icon orbit-fire">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5z"/></svg>
+          </div>
+          <div class="orbit-icon orbit-lock">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+          </div>
+        </div>
+        <div class="house-svg-wrap">
+          <svg class="house-svg" viewBox="0 0 220 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <!-- House body -->
+            <rect x="30" y="100" width="160" height="90" rx="4" fill="#1a2d5a" stroke="#2a4080" stroke-width="2"/>
+            <!-- Roof -->
+            <polygon points="110,20 10,110 210,110" fill="#16254a" stroke="#2a4080" stroke-width="2"/>
+            <!-- Door -->
+            <rect x="90" y="140" width="40" height="50" rx="3" fill="#0f1c3a" stroke="#2a4080" stroke-width="1.5"/>
+            <circle cx="123" cy="166" r="3" fill="#4ade80"/>
+            <!-- Windows -->
+            <rect x="42" y="115" width="45" height="35" rx="3" fill="#fbbf24" opacity="0.85"/>
+            <line x1="64" y1="115" x2="64" y2="150" stroke="#f59e0b" stroke-width="1.5"/>
+            <line x1="42" y1="132" x2="87" y2="132" stroke="#f59e0b" stroke-width="1.5"/>
+            <rect x="133" y="115" width="45" height="35" rx="3" fill="#fbbf24" opacity="0.85"/>
+            <line x1="155" y1="115" x2="155" y2="150" stroke="#f59e0b" stroke-width="1.5"/>
+            <line x1="133" y1="132" x2="178" y2="132" stroke="#f59e0b" stroke-width="1.5"/>
+            <!-- Shield -->
+            <path d="M170 155 L195 145 L220 155 L220 175 C220 185 210 195 195 200 C180 195 170 185 170 175 Z" fill="#1e3a8a" stroke="#3b82f6" stroke-width="1.5"/>
+            <path d="M183 170 L191 178 L207 162" stroke="#4ade80" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FEATURE CARDS ===== -->
+  <section class="features" id="caracteristicas">
+    <div class="container">
+      <div class="cards-grid">
+
+        <div class="feature-card">
+          <div class="card-icon icon-teal">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.55a11 11 0 0 1 14.08 0"/><path d="M1.42 9a16 16 0 0 1 21.16 0"/><path d="M8.53 16.11a6 6 0 0 1 6.95 0"/><line x1="12" y1="20" x2="12.01" y2="20"/></svg>
+          </div>
+          <h3>¿Qué es IoT?</h3>
+          <p>Conecta dispositivos a internet para recopilar y compartir información en tiempo real. Permite monitoreo inteligente del hogar desde cualquier lugar.</p>
+          <a href="#tecnologia" class="card-link">Saber más →</a>
+        </div>
+
+        <div class="feature-card">
+          <div class="card-icon icon-purple">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+          </div>
+          <h3>Monitoreo en tiempo real</h3>
+          <p>Visualiza lecturas del sensor de gas y recibe alertas ante niveles peligrosos. Dashboard actualizado segundo a segundo para tu tranquilidad.</p>
+          <a href="#como-ayuda" class="card-link">Saber más →</a>
+        </div>
+
+        <div class="feature-card">
+          <div class="card-icon icon-blue">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/><circle cx="12" cy="16" r="1" fill="currentColor"/></svg>
+          </div>
+          <h3>Automatización</h3>
+          <p>El sistema puede activar alarmas y cerrar la llave de gas automáticamente ante situaciones de riesgo, sin necesidad de intervención manual.</p>
+          <a href="#como-ayuda" class="card-link">Saber más →</a>
+        </div>
+
+        <div class="feature-card">
+          <div class="card-icon icon-red">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+          </div>
+          <h3>Seguridad para todos</h3>
+          <p>Especialmente diseñado para proteger a los adultos mayores en el hogar. Monitoreo constante que brinda seguridad y tranquilidad a toda la familia.</p>
+          <a href="#como-ayuda" class="card-link teal">Saber más →</a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FORM SECTION ===== -->
+  <section class="form-section" id="formulario">
+    <div class="container">
+      <div class="form-grid">
+
+        <!-- Left: Form -->
+        <div class="form-box">
+          <h2>Registro y Lectura del Sensor</h2>
+          <p class="form-desc">Completa la información del hogar y registra la lectura actual del sensor de gas. Estos datos serán almacenados y monitoreados para tu seguridad.</p>
+
+          <form id="sensorForm" onsubmit="handleSubmit(event)">
+            <div class="form-group">
+              <label for="address">Dirección del hogar</label>
+              <input type="text" id="address" name="address" placeholder="Ej. Calle Siempre Viva 123, Springfield" required />
+            </div>
+
+            <div class="form-group">
+              <label for="phone">Teléfono de contacto</label>
+              <input type="tel" id="phone" name="phone" placeholder="Ej. +52 55 1234 5678" required />
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="nombre1">Nombre del habitante 1</label>
+                <input type="text" id="nombre1" name="nombre1" placeholder="Ej. Juan Pérez" required />
+              </div>
+              <div class="form-group">
+                <label for="apellido1">Apellido del habitante 1</label>
+                <input type="text" id="apellido1" name="apellido1" placeholder="Ej. Pérez García" required />
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="nombre2">Nombre del habitante 2</label>
+                <input type="text" id="nombre2" name="nombre2" placeholder="Ej. María López" required />
+              </div>
+              <div class="form-group">
+                <label for="apellido2">Apellido del habitante 2</label>
+                <input type="text" id="apellido2" name="apellido2" placeholder="Ej. López Martínez" required />
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="co2">Lectura del sensor de CO₂ (ppm)</label>
+              <input type="number" id="co2" name="co2" placeholder="Ej. 350" min="0" max="5000" required />
+            </div>
+
+            <button type="submit" class="btn-submit">
+              Enviar Información
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+            </button>
+          </form>
+
+          <div id="successMsg" class="success-msg" style="display:none;">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+            ¡Datos enviados correctamente! Tu hogar está siendo monitoreado.
+          </div>
+        </div>
+
+        <!-- Right: Info Panel -->
+        <div class="form-info">
+          <div class="info-card">
+            <h4>¿Para qué se usa este formulario?</h4>
+            <ul class="info-list">
+              <li>
+                <span class="check-icon">✓</span>
+                Registrar datos del hogar y sus habitantes.
+              </li>
+              <li>
+                <span class="check-icon">✓</span>
+                Guardar lecturas del sensor de gas en tiempo real.
+              </li>
+              <li>
+                <span class="check-icon">✓</span>
+                Enviar alertas y notificaciones en caso de riesgo.
+              </li>
+              <li>
+                <span class="check-icon">✓</span>
+                Brindar mayor seguridad a los adultos mayores.
+              </li>
+            </ul>
+          </div>
+
+          <div class="sensor-display">
+            <div class="sensor-device">
+              <div class="sensor-screen">
+                <div class="sensor-label">Lectura actual</div>
+                <div class="sensor-value" id="liveReading">350 <span>ppm</span></div>
+                <div class="sensor-level" id="sensorLevel">Nivel: <span class="level-caution">Precaución</span></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== HOW IT HELPS ===== -->
+  <section class="how-helps" id="como-ayuda">
+    <div class="container">
+      <h2 class="section-title">¿Cómo ayuda <span class="gradient-text">esta tecnología?</span></h2>
+      <p class="section-subtitle">El IoT permite anticiparse a los riesgos. Detecta fugas de gas, alerta a la familia y actúa automáticamente para minimizar daños y proteger vidas.</p>
+
+      <div class="helps-grid">
+        <div class="help-card">
+          <div class="help-icon icon-green">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          </div>
+          <h4>Prevención de accidentes</h4>
+          <p>Detecta niveles peligrosos de gas antes de que sea demasiado tarde, protegiendo a toda la familia.</p>
+        </div>
+
+        <div class="help-card">
+          <div class="help-icon icon-amber">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.73 21a2 2 0 0 1-3.46 0"/></svg>
+          </div>
+          <h4>Alertas inmediatas</h4>
+          <p>Notificaciones y alarmas en tiempo real para que actúes rápido ante cualquier situación de riesgo.</p>
+        </div>
+
+        <div class="help-card">
+          <div class="help-icon icon-blue2">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+          </div>
+          <h4>Automatización inteligente</h4>
+          <p>Cierre automático de la llave de gas y activación de alarmas sin necesidad de intervención humana.</p>
+        </div>
+
+        <div class="help-card">
+          <div class="help-icon icon-rose">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+          </div>
+          <h4>Tranquilidad para la familia</h4>
+          <p>Monitoreo constante que brinda seguridad a los adultos mayores y tranquilidad a sus seres queridos.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== TECHNOLOGY / GAS RISKS ===== -->
+  <section class="tech-section" id="tecnologia">
+    <div class="container">
+      <h2 class="section-title">Riesgos del gas y cómo la <span class="gradient-text">tecnología los previene</span></h2>
+      <div class="tech-grid">
+        <div class="tech-info">
+          <div class="risk-item">
+            <div class="risk-icon">⚠️</div>
+            <div>
+              <h4>Intoxicación por CO₂</h4>
+              <p>Niveles elevados de dióxido de carbono pueden causar mareos, pérdida de conciencia y ser fatales. Los adultos mayores son especialmente vulnerables.</p>
+            </div>
+          </div>
+          <div class="risk-item">
+            <div class="risk-icon">💨</div>
+            <div>
+              <h4>Fugas de gas</h4>
+              <p>Una fuga imperceptible puede acumularse hasta provocar explosiones o incendios. El monitoreo IoT detecta concentraciones antes de que sean peligrosas.</p>
+            </div>
+          </div>
+          <div class="risk-item">
+            <div class="risk-icon">🔥</div>
+            <div>
+              <h4>Incendios domésticos</h4>
+              <p>El gas sin supervisión es una de las principales causas de incendios. La automatización puede cerrar suministros de gas automáticamente.</p>
+            </div>
+          </div>
+        </div>
+        <div class="tech-solution">
+          <div class="solution-card">
+            <h3>Niveles de CO₂ y su significado</h3>
+            <div class="level-bar">
+              <div class="bar-segment safe">
+                <span>Normal</span>
+                <small>0 – 400 ppm</small>
+              </div>
+              <div class="bar-segment caution">
+                <span>Precaución</span>
+                <small>400 – 1000 ppm</small>
+              </div>
+              <div class="bar-segment danger">
+                <span>Peligro</span>
+                <small>1000+ ppm</small>
+              </div>
+            </div>
+            <p class="solution-note">El sistema SafeHome IoT envía alertas automáticas cuando los valores superan los 400 ppm y activa protocolos de seguridad al sobrepasar 1000 ppm.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== RESOURCES ===== -->
+  <section class="resources" id="contacto">
+    <div class="container">
+      <h3>Recursos y Enlaces</h3>
+      <p class="resources-desc">Conoce más sobre el proyecto, mira el video explicativo y visita mi perfil en GitHub</p>
+      <div class="resources-grid">
+
+        <a href="TU_ENLACE_DE_YOUTUBE" target="_blank" class="resource-card">
+          <div class="resource-icon yt-icon">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M19.59 6.69a4.83 4.83 0 0 0-3.77-2.7C14.14 3.8 12 3.8 12 3.8s-2.14 0-3.82.19a4.83 4.83 0 0 0-3.77 2.7A27 27 0 0 0 4 12a27 27 0 0 0 .41 5.31 4.83 4.83 0 0 0 3.77 2.7c1.68.19 3.82.19 3.82.19s2.14 0 3.82-.19a4.83 4.83 0 0 0 3.77-2.7A27 27 0 0 0 20 12a27 27 0 0 0-.41-5.31zM10 15V9l5 3-5 3z"/></svg>
+          </div>
+          <div>
+            <strong>Video en YouTube</strong>
+            <p>Mira el video explicativo del proyecto y su funcionamiento.</p>
+            <span class="res-link">Ver Video</span>
+          </div>
+        </a>
+
+        <a href="TU_ENLACE_DE_GITHUB" target="_blank" class="resource-card">
+          <div class="resource-icon gh-icon">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0 1 12 6.844a9.59 9.59 0 0 1 2.504.337c1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0 0 22 12.017C22 6.484 17.522 2 12 2z"/></svg>
+          </div>
+          <div>
+            <strong>Perfil de GitHub</strong>
+            <p>Revisa el código fuente y contribuciones del proyecto en GitHub.</p>
+            <span class="res-link">Ver en GitHub</span>
+          </div>
+        </a>
+
+        <a href="TU_ENLACE_PRINCIPAL" class="resource-card">
+          <div class="resource-icon home-icon">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+          </div>
+          <div>
+            <strong>Página Principal</strong>
+            <p>Regresa al inicio o de tu portafolio.</p>
+            <span class="res-link">Ir a la Página Principal</span>
+          </div>
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <p>© 2025 SafeHome IoT. Todos los derechos reservados.</p>
+  </footer>
+
+  <script>
+    // Live CO2 reading sync with form
+    const co2Input = document.getElementById('co2');
+    const liveReading = document.getElementById('liveReading');
+    const sensorLevel = document.getElementById('sensorLevel');
+
+    co2Input.addEventListener('input', () => {
+      const val = parseInt(co2Input.value) || 0;
+      liveReading.innerHTML = `${val} <span>ppm</span>`;
+      let levelHtml = '';
+      if (val <= 400) {
+        levelHtml = 'Nivel: <span class="level-safe">Normal</span>';
+      } else if (val <= 1000) {
+        levelHtml = 'Nivel: <span class="level-caution">Precaución</span>';
+      } else {
+        levelHtml = 'Nivel: <span class="level-danger">¡Peligro!</span>';
+      }
+      sensorLevel.innerHTML = levelHtml;
+    });
+
+    function handleSubmit(e) {
+      e.preventDefault();
+      document.getElementById('successMsg').style.display = 'flex';
+      e.target.reset();
+      liveReading.innerHTML = '0 <span>ppm</span>';
+      sensorLevel.innerHTML = 'Nivel: <span class="level-safe">Normal</span>';
+      setTimeout(() => {
+        document.getElementById('successMsg').style.display = 'none';
+      }, 5000);
+    }
+
+    // Smooth scroll for nav links
+    document.querySelectorAll('a[href^="#"]').forEach(a => {
+      a.addEventListener('click', e => {
+        const target = document.querySelector(a.getAttribute('href'));
+        if (target) {
+          e.preventDefault();
+          target.scrollIntoView({ behavior: 'smooth' });
+        }
+      });
+    });
+
+    // Navbar scroll effect
+    window.addEventListener('scroll', () => {
+      const nav = document.querySelector('.navbar');
+      nav.classList.toggle('scrolled', window.scrollY > 30);
+    });
+  </script>
+</body>
+</html>
